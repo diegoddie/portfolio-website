@@ -33,7 +33,7 @@ const About = () => {
                 </div>
                 <div className='flex items-center justify-center'>
                     <p className=''>
-                        🚀 I began programming in late 2021, starting with <span className='font-bold'>Python</span> and then expanding my expertise with other languages and libraries like the <span className='font-bold'>MERN stack.</span> <br/><br/>🌎 Currently, I am attending the <span className='font-bold'>Full Stack Development master's program at Start2Impact</span>, an Italian B-Corp company that prioritizes new sustainable and regenerative models.<br/><br/>⛓️ I have also a strong interest in <span className='font-bold'>blockchain technology</span> and its transformative potential. 
+                        🚀 I began programming in late 2021, starting with <span className='font-bold'>Python</span> and then expanding my expertise with other languages and libraries like the <span className='font-bold'>MERN stack.</span> <br/><br/>🌎 Currently, I am attending the <span className='font-bold'>Full Stack Development master's program at Start2Impact</span>, an Italian B-Corp company that prioritizes new sustainable and regenerative models.<br/><br/>⛓️ I have also a strong interest in <span className='font-bold'>blockchain technology</span> and its transformative potential. In July 2023, I obtained the <span className='font-bold'>Ethereum Developer Certification</span> after attending Alchemy University's bootcamp.
                     </p>
                 </div>
             </div>

@@ -8,6 +8,9 @@ import Easybank from '../assets/portfolio/easybank.png';
 import Ecommerce from '../assets/portfolio/Ecommerce.png';
 import NetflixClone from '../assets/portfolio/NetflixClone.png';
 import VotingDapp from '../assets/portfolio/VOTING.png';
+import Weather from '../assets/portfolio/Weather.png';
+import REIS from '../assets/portfolio/REIS.png';
+import WizAIrd from '../assets/portfolio/WizAIrd.png';
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -25,10 +28,10 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: Cryptoverse,
-      title: "Coingecko clone",
-      code: "https://github.com/diegoddie/cryptoverse",
-      live: "https://cryptoverse-coral.vercel.app/",
+      src: WizAIrd,
+      title: "WizAIrd",
+      code: "https://github.com/diegoddie/AI_Generator_SaaS",
+      live: "https://real-estate-locofy.vercel.app/",
       category: "full stack",
     },
     {
@@ -78,6 +81,30 @@ const Portfolio = () => {
       live: "https://diegoddie.github.io/EasyBank_LandingPage/",
       category: "front end",
     },
+    {
+      id: 9,
+      src: Weather,
+      title: "Weather App",
+      code: "https://github.com/diegoddie/React_WeatherApp",
+      live: "https://react-weather-app-fn7f.vercel.app/",
+      category: "APIs",
+    },
+    {
+      id: 10,
+      src: REIS,
+      title: "REIS Real Estate",
+      code: "https://github.com/diegoddie/RealEstate_locofy",
+      live: "https://real-estate-locofy.vercel.app/",
+      category: "front end",
+    },
+    {
+      id: 11,
+      src: Cryptoverse,
+      title: "Coingecko clone",
+      code: "https://github.com/diegoddie/cryptoverse",
+      live: "https://cryptoverse-coral.vercel.app/",
+      category: "full stack",
+    },
   ];
 
   const handleCategoryChange = (category) => {
@@ -111,7 +138,7 @@ const Portfolio = () => {
           <p className="text-xl font-bold py-4">Check out some of my recent works!</p>
         </div>
 
-          <div className="flex justify-center mb-4">
+          <div className="sm:flex justify-center text-center mb-4">
             <button
               className='px-4 py-2 font-bold transition duration-150 border-b-4 hover:border-[#045d90] dark:hover:border-[#0c57ed] border-transparent'
               onClick={() => handleCategoryChange("all")}
@@ -135,6 +162,12 @@ const Portfolio = () => {
               onClick={() => handleCategoryChange("blockchain")}
             >
               Blockchain
+            </button>
+            <button
+              className='px-4 py-2 font-bold transition duration-150 border-b-4 hover:border-[#045d90] dark:hover:border-[#0c57ed] border-transparent'
+              onClick={() => handleCategoryChange("APIs")}
+            >
+              APIs
             </button>
           </div>
 
