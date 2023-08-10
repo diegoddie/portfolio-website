@@ -5,12 +5,12 @@ import CarShowcase from '../assets/portfolio/CarShowcase.png';
 import CrowdfundingDapp from '../assets/portfolio/CrowdfundingDapp.png';
 import Cryptoverse from '../assets/portfolio/cryptoverse.png';
 import Easybank from '../assets/portfolio/easybank.png';
-import Ecommerce from '../assets/portfolio/Ecommerce.png';
 import NetflixClone from '../assets/portfolio/NetflixClone.png';
 import VotingDapp from '../assets/portfolio/VOTING.png';
 import Weather from '../assets/portfolio/Weather.png';
 import REIS from '../assets/portfolio/REIS.png';
 import WizAIrd from '../assets/portfolio/WizAIrd.png';
+import Ecommerce from '../assets/portfolio/Ecommerce.png';
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
