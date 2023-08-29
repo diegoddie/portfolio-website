@@ -122,7 +122,7 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-lime-600'>
-                        <a href="https://www.fiverr.com/diegoddie?up_rollout=true" className='flex justify-between items-center w-full text-gray-300'>
+                        <a href="https://www.fiverr.com/diegoddie" className='flex justify-between items-center w-full text-gray-300'>
                             Fiverr <SiFiverr size={30}/>
                         </a>
                     </li>

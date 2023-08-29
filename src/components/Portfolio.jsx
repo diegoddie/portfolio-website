@@ -23,7 +23,7 @@ const Portfolio = () => {
       src: CrowdfundingDapp,
       title: "Crowdfunding Dapp",
       code: "https://github.com/diegoddie/Web3Raise-CrowdfundingDapp",
-      live: "https://web3raise.netlify.app/",
+      live: "https://web3-raise-crowdfunding-dapp.vercel.app/",
       category: "blockchain",
     },
     {
@@ -47,7 +47,7 @@ const Portfolio = () => {
       src: VotingDapp,
       title: "Voting Dapp",
       code: "https://github.com/diegoddie/VotingDapp-Start2ImpactProject",
-      live: "https://votingdapps2i.netlify.app/",
+      live: "https://voting-dapp-start2-impact-project.vercel.app/",
       category: "blockchain",
     },
     {
