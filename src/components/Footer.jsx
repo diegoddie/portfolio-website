@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="https://github.com/diegoddie">
                         <FaGithub size={25} className="cursor-pointer" />
                     </a>
-                    <a href="https://www.fiverr.com/diegoddie?up_rollout=true">
+                    <a href="https://www.fiverr.com/diegoddie">
                         <SiFiverr size={35} className="cursor-pointer" />
                     </a>
                     <a href="https://www.upwork.com/freelancers/~01021369935709b658">
