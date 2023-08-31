@@ -11,6 +11,7 @@ import Weather from '../assets/portfolio/Weather.png';
 import REIS from '../assets/portfolio/REIS.png';
 import WizAIrd from '../assets/portfolio/WizAIrd.png';
 import Ecommerce from '../assets/portfolio/Ecommerce.png';
+import Nike from '../assets/portfolio/nike.png';
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -75,14 +76,22 @@ const Portfolio = () => {
     },
     {
       id: 8,
+      src: Nike,
+      title: "Nike Concept Website",
+      code: "https://github.com/diegoddie/Nike_Concept_Website-TailwindCSS",
+      live: "https://nikeconceptwebsite.netlify.app/",
+      category: "front end",
+    },
+    {
+      id: 9,
       src: Easybank,
-      title: "Landing Page",
+      title: "Bank Landing Page",
       code: "https://github.com/diegoddie/EasyBank_LandingPage",
       live: "https://diegoddie.github.io/EasyBank_LandingPage/",
       category: "front end",
     },
     {
-      id: 9,
+      id: 10,
       src: Weather,
       title: "Weather App",
       code: "https://github.com/diegoddie/React_WeatherApp",
@@ -90,7 +99,7 @@ const Portfolio = () => {
       category: "APIs",
     },
     {
-      id: 10,
+      id: 11,
       src: REIS,
       title: "REIS Real Estate",
       code: "https://github.com/diegoddie/RealEstate_locofy",
@@ -98,7 +107,7 @@ const Portfolio = () => {
       category: "front end",
     },
     {
-      id: 11,
+      id: 12,
       src: Cryptoverse,
       title: "Coingecko clone",
       code: "https://github.com/diegoddie/cryptoverse",
