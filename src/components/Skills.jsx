@@ -102,8 +102,8 @@ const Skills = () => {
   const renderedTechnologies = showAll ? technologies : filteredTechnologies;
 
   return (
-    <div name="skills" className="w-full sm:h-screen text-[#0b171e] dark:text-[#e2fdf4]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="skills" className="w-full h-full text-[#0b171e] dark:text-[#e2fdf4] md:mt-10 md:mb-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full md:h-auto">
         <div className="sm:text-center pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-[#045d90] dark:border-[#55dbf6]">Skills</p>
           <p className="text-xl font-bold py-4">These are some of the technologies I have used for my projects.</p>

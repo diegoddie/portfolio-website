@@ -5,8 +5,8 @@ import { MdOutlineComputer } from 'react-icons/md'
 
 const Services = () => {
   return (
-    <div name="services" className="w-full sm:h-screen text-[#0b171e] dark:text-[#e2fdf4]">
-        <div className="max-w-[1000px] mx-auto sm:p-0 p-4 flex flex-col justify-center w-full h-full">
+    <div name="services" className="w-full md:h-screen text-[#0b171e] dark:text-[#e2fdf4] md:mt-20">
+        <div className="max-w-[1000px] mx-auto sm:p-0 p-4 flex flex-col justify-center w-full h-full md:h-screen">
             <div className="sm:text-center pb-8 text-center">
                 <p className="text-4xl font-bold inline border-b-4 border-[#045d90] dark:border-[#55dbf6]">Services</p>
                 <p className="text-xl font-bold py-4">What I do for clients:</p>

@@ -6,15 +6,15 @@ import { MdOutlineComputer } from 'react-icons/md'
 const About = () => {
   return (
     <div name="about" className='w-full h-screen text-[#0b171e] dark:text-[#e2fdf4]'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full gap-8'>
+        <div className='flex flex-col justify-center items-center w-full md:h-screen'>
+            <div className='max-w-[1000px] gap-8'>
                 <div className='sm:text-center pb-8 text-center'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#045d90] dark:border-[#55dbf6]'>
                         About
                     </p>
                 </div>
             </div>
-            <div className='max-w-[1000px] w-full sm:h-[35%] grid sm:grid-cols-2 gap-8 px-4 py-2 bg-[#b3d9ef] dark:bg-[#121b2b]'>
+            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-4 bg-[#b3d9ef] dark:bg-[#121b2b]'>
                 <div className='grid grid-cols-1 gap-8 px-4 items-center'>
                     <div className='flex flex-col items-center font-bold'>
                         <div className='flex sm:justify-end justify-center items-center my-2'>

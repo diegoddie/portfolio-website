@@ -8,7 +8,7 @@ const Hero = () => {
     <div name="hero" className='w-full h-screen text-[#0b171e] dark:text-[#e2fdf4]'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <div className='flex flex-col justify-center items-center h-full '>
+            <div className='flex flex-col justify-center items-center h-full md:mt-20'>
                 <div className='sm:flex items-center flex-wrap mb-2'>
                     <div className='sm:mr-4 mb-5 sm:mb-0'>
                         <img src={foto2} alt='Hero' className='rounded-full  w-24 h-24 md:w-32 md:h-32 border-[4px] border-[#06a0f9] dark:border-[#0c57ed] object-contain' />

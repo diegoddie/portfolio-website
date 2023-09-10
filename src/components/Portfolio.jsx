@@ -149,8 +149,8 @@ const Portfolio = () => {
   const renderedPortfolios = showAll ? portfolios : filteredPortfolios;
 
   return (
-    <div name="portfolio" className="w-full sm:h-screen text-[#0b171e] dark:text-[#e2fdf4]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="portfolio" className="w-full md:h-full text-[#0b171e] dark:text-[#e2fdf4]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full md:h-auto">
         <div className="sm:text-center pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-[#045d90] dark:border-[#55dbf6]">Portfolio</p>
           <p className="text-xl font-bold py-4">Check out some of my recent works!</p>
